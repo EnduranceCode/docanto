@@ -3,8 +3,9 @@
  *
  * Copyright 2023 Ricardo do Canto
  *
- * Configuratio file for sass-loader
- * https://github.com/webpack-contrib/sass-loader
+ * Licensed under MIT (https://github.com/EnduranceCode/docanto-website/blob/master/LICENSE)
+ *
+ * Configuratio file for sass-loader https://github.com/webpack-contrib/sass-loader
  */
 
 module.exports = {

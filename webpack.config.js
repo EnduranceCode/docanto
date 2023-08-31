@@ -2,6 +2,10 @@
  * Family do Canto website
  *
  * Copyright 2023 Ricardo do Canto
+ *
+ * Licensed under MIT (https://github.com/EnduranceCode/docanto-website/blob/master/LICENSE)
+ *
+ * Copyright 2023 Ricardo do Canto
  */
 
 const path = require('path');
