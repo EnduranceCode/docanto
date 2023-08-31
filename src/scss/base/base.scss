@@ -1,0 +1,21 @@
+/*!
+ * Family do Canto website
+ *
+ * Copyright 2023 Ricardo do Canto
+ *
+ * The CSS of this website uses the Bulma CSS Framework (https: //bulma.io/)
+ */
+ 
+ @charset "utf-8";
+
+.fullscreen-bkg {
+  background-attachment: fixed;
+  background-image: url(../img/html-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
