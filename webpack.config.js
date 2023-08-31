@@ -33,6 +33,13 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(gif|jpg|jpeg|png|svg|webp)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'img/[name][ext]',
+        },
+      },
+      {
         test: /\.(s[ac]|c)ss$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader', 'postcss-loader'],
       },
